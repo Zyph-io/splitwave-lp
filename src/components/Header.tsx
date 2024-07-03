@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-blue-900 text-white flex justify-between items-center py-4 px-6">
+    <header className=" text-white flex justify-between items-center py-4 px-6">
       <div className="flex items-center space-x-2">
         <img src="/path/to/logo.png" alt="Splitwave Logo" className="h-8" />
         <span className="text-xl font-semibold">splitwave</span>

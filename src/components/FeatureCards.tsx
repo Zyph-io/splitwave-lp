@@ -21,13 +21,13 @@ const features = [
 
 const FeatureCards = () => {
   return (
-    <section className="bg-blue-900 py-20">
+    <section className="py-20">
       <div className="container mx-auto px-4 text-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
-              className={`bg-[#1c3664] text-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 ${
+              className={`bg-[#071941] text-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-[367px] h-[307px]${
                 index === 2 ? 'sm:col-span-2 md:col-span-1' : ''
               }`}
             >

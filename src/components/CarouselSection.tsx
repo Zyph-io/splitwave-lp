@@ -28,7 +28,13 @@ const CarouselSection: React.FC = () => {
   };
 
   return (
-    <section className="bg-blue-900 text-white py-16 px-8">
+    <section
+      className="text-white py-16 px-8"
+      style={{
+        backgroundImage: "url('https://i.postimg.cc/kGzJVpwy/DEP-blur-01.png')",
+        backgroundPosition: 'center',
+      }}
+    >
       <div className="max-w-7xl mx-auto text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">
           O QUE <span className="text-blue-400">NOSSOS</span> CLIENTES ESTÃO FALANDO SOBRE NÓS.
@@ -44,7 +50,7 @@ const CarouselSection: React.FC = () => {
               key={testimonial.id}
               className={`${
                 index === current ? 'block' : 'hidden'
-              } bg-gray-800 p-6 rounded-md shadow-md w-96`}
+              } bg-gray-800 bg-opacity-75 p-6 rounded-md w-96`}
             >
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-gray-700 rounded-full mr-4"></div>

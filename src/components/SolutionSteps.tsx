@@ -29,7 +29,7 @@ const steps = [
 
 const SolutionSteps = () => {
   return (
-    <section className="bg-blue-900 py-20 relative">
+    <section className="py-20 relative">
       <div className="container mx-auto px-4 text-center text-white relative">
         <h2 className="text-3xl md:text-4xl font-bold mb-12">O QUE A <span className="text-blue-300">SPLITWAVE</span> TRAZ DE SOLUÇÃO?</h2>
         <div className="relative hidden md:block">

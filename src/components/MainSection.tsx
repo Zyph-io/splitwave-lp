@@ -1,9 +1,8 @@
-// src/components/MainSection.tsx
 import React from 'react';
 
 const MainSection: React.FC = () => {
   return (
-    <section className="bg-blue-900 text-white py-16 px-8">
+    <section className=" text-white py-16 px-8 max-w-7xl mx-auto">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h1 className="text-4xl font-bold mb-4">Tenha seu próprio gateway de pagamento</h1>
@@ -13,27 +12,21 @@ const MainSection: React.FC = () => {
           </button>
         </div>
         <div className="md:w-1/2">
-          <img src="https://via.placeholder.com/400x300" alt="Gateway de Pagamento" className="rounded-md shadow-md" />
+          <img src="https://i.postimg.cc/GpN0fBH2/8953473-1.png" alt="Gateway de Pagamento" className="rounded-md shadow-md" />
         </div>
       </div>
-      <div className="mt-16 flex justify-center space-x-4">
-        <div className="bg-white text-blue-900 p-6 rounded-lg shadow-md text-center">
-          <div className="mb-2">
-            <img src="https://via.placeholder.com/100" alt="Mais Segurança" className="h-12 mx-auto" />
-          </div>
-          <div className="font-bold">Mais Segurança</div>
+      <div className="max-w-[482px] h-32 mt-16 p-4 bg-white rounded-lg shadow-md flex justify-around">
+        <div className="text-center w-12 h-12 bg-[#002980] rounded-full">
+          <img src="https://i.postimg.cc/65wdZYYW/engrenagem.png" alt="Mais Segurança" className="h-12 mx-auto mb-2" />
+          <div className="text-blue-900 font-bold">Mais Segurança</div>
         </div>
-        <div className="bg-white text-blue-900 p-6 rounded-lg shadow-md text-center">
-          <div className="mb-2">
-            <img src="https://via.placeholder.com/100" alt="Mais Inovação" className="h-12 mx-auto" />
-          </div>
-          <div className="font-bold">Mais Inovação</div>
+        <div className="text-center w-12 h-12 bg-[#002980] rounded-full">
+          <img src="https://i.postimg.cc/pLrk9sL9/seta.png" alt="Mais Integração" className="h-12 mx-auto mb-2" />
+          <div className="text-blue-900 font-bold">Mais Integração</div>
         </div>
-        <div className="bg-white text-blue-900 p-6 rounded-lg shadow-md text-center">
-          <div className="mb-2">
-            <img src="https://via.placeholder.com/100" alt="Mais Suporte" className="h-12 mx-auto" />
-          </div>
-          <div className="font-bold">Mais Suporte</div>
+        <div className="text-center w-12 h-12 bg-[#002980] rounded-full">
+          <img src="https://i.postimg.cc/Gp180pVc/caneta.png" alt="Mais Suporte" className="h-12 mx-auto mb-2" />
+          <div className="text-blue-900 font-bold">Mais Suporte</div>
         </div>
       </div>
     </section>

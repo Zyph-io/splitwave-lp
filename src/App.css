@@ -6,3 +6,10 @@
  
 }
 
+body{
+  background-color: #002980;
+}
+
+details[open] summary svg {
+  transform: rotate(180deg);
+}

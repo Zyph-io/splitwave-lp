@@ -33,10 +33,10 @@ const positionClasses = [
 
 const ReasonsSection = () => {
   return (
-    <section className="relative bg-blue-900 py-20 overflow-hidden">
+    <section className="relative  py-20 overflow-hidden">
       <div className="absolute inset-0 opacity-60 flex justify-center items-center w-full m-auto">
         <img
-          src="https://s3-alpha-sig.figma.com/img/d38a/7e8b/2dcbe87a5b742056a07f0ae314f8ca59?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JW8lurrWJxU7W1mpl1Y176NTg10aQWUxNQw3aZat3AtEqapr~0xzDSKAPmwf2PhoUGGxZ2uoCCvEBWM0tb1MKrAbR2yvZrzn1YiR~K4Del-KlzwmB6W5syhoY~Zvbc8oLknH2haav~0Egjn3~wAurkjW5gDBmq3-hFw9leN6h4VQsUhEC6e4HleCY-gMKLE-0Lsrqz0WlC7yLgqiB29e-bBmQGArJGXCESBnftNxgRHLg4QbIOQoNQHiK2zxTX7BMwQ7NQFpa1MJgdD7v7HEEiCwDWRd-yko6YKZ3wVcf~8CoTIdl6vOFWDNwGuUdowWVaCJjqO9i4tsYWyqBwnPYA__"
+          src="https://i.postimg.cc/j5dXkgKK/bg.png"
           alt="Mockup Background"
           className="w-[47em] h-[27rem] object-cover"
         />
