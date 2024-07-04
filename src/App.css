@@ -13,3 +13,6 @@ body{
 details[open] summary svg {
   transform: rotate(180deg);
 }
+.filter-blue {
+  filter: opacity(0.5) hue-rotate(190deg);
+}
