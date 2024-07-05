@@ -17,24 +17,25 @@ const MainSection: React.FC = () => {
           <img src="https://i.postimg.cc/PfKDJ8rM/imagem-layer.png" alt="Gateway de Pagamento" className="rounded-md shadow-md" />
         </div>
       </div>
-      <div className="max-w-[482px] h-32 mt-16 p-4 bg-white rounded-lg shadow-md flex justify-around">
-        <div className="text-center">
+      <div className='font-bold text-2xl '>INFRAESTRUTURA COMPLETA</div>
+      <div className="max-w-[482px] h-[119px] mt-16 p-4 bg-white rounded-lg shadow-md flex justify-around items-center">
+        <div className="text-center flex gap-4">
           <div className="w-12 h-12 bg-[#002980] rounded-full flex items-center justify-center mb-2">
             <FontAwesomeIcon icon={faShieldAlt} className="text-white text-xl" />
           </div>
-          <div className="text-blue-900 font-bold">Mais Segurança</div>
+          <div className="text-blue-900 font-bold text-justify"><span className='text-[#737373] '>Mais</span><br /> Segurança</div>
         </div>
-        <div className="text-center">
+        <div className="text-center flex gap-4">
           <div className="w-12 h-12 bg-[#002980] rounded-full flex items-center justify-center mb-2">
             <FontAwesomeIcon icon={faSyncAlt} className="text-white text-xl" />
           </div>
-          <div className="text-blue-900 font-bold">Mais Integração</div>
+          <div className="text-blue-900 font-bold text-justify"><span className='text-[#737373] '>Mais</span><br /> Integração</div>
         </div>
-        <div className="text-center">
+        <div className="text-center flex gap-4">
           <div className="w-12 h-12 bg-[#002980] rounded-full flex items-center justify-center mb-2">
             <FontAwesomeIcon icon={faHeadset} className="text-white text-xl" />
           </div>
-          <div className="text-blue-900 font-bold">Mais Suporte</div>
+          <div className="text-blue-900 font-bold text-justify"><span className='text-[#737373] '>Mais</span><br /> Suporte</div>
         </div>
       </div>
     </section>
