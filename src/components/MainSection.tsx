@@ -1,8 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShieldAlt, faSyncAlt, faHeadset } from '@fortawesome/free-solid-svg-icons';
 
 const MainSection: React.FC = () => {
   return (
-    <section className=" text-white py-16 px-8 max-w-7xl mx-auto">
+    <section className="text-white py-16 px-8 max-w-7xl mx-auto">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h1 className="text-4xl font-bold mb-4">Tenha seu próprio gateway de pagamento</h1>
@@ -16,16 +18,22 @@ const MainSection: React.FC = () => {
         </div>
       </div>
       <div className="max-w-[482px] h-32 mt-16 p-4 bg-white rounded-lg shadow-md flex justify-around">
-        <div className="text-center w-12 h-12 bg-[#002980] rounded-full">
-          <img src="https://i.postimg.cc/65wdZYYW/engrenagem.png" alt="Mais Segurança" className="h-12 mx-auto mb-2" />
+        <div className="text-center">
+          <div className="w-12 h-12 bg-[#002980] rounded-full flex items-center justify-center mb-2">
+            <FontAwesomeIcon icon={faShieldAlt} className="text-white text-xl" />
+          </div>
           <div className="text-blue-900 font-bold">Mais Segurança</div>
         </div>
-        <div className="text-center w-12 h-12 bg-[#002980] rounded-full">
-          <img src="https://i.postimg.cc/pLrk9sL9/seta.png" alt="Mais Integração" className="h-12 mx-auto mb-2" />
+        <div className="text-center">
+          <div className="w-12 h-12 bg-[#002980] rounded-full flex items-center justify-center mb-2">
+            <FontAwesomeIcon icon={faSyncAlt} className="text-white text-xl" />
+          </div>
           <div className="text-blue-900 font-bold">Mais Integração</div>
         </div>
-        <div className="text-center w-12 h-12 bg-[#002980] rounded-full">
-          <img src="https://i.postimg.cc/Gp180pVc/caneta.png" alt="Mais Suporte" className="h-12 mx-auto mb-2" />
+        <div className="text-center">
+          <div className="w-12 h-12 bg-[#002980] rounded-full flex items-center justify-center mb-2">
+            <FontAwesomeIcon icon={faHeadset} className="text-white text-xl" />
+          </div>
           <div className="text-blue-900 font-bold">Mais Suporte</div>
         </div>
       </div>
