@@ -8,6 +8,7 @@
 
 body{
   background-color: #002980;
+  overflow-x: hidden;
 }
 
 details[open] summary svg {

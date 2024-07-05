@@ -12,7 +12,7 @@ const MainSection: React.FC = () => {
           </button>
         </div>
         <div className="md:w-1/2">
-          <img src="https://i.postimg.cc/GpN0fBH2/8953473-1.png" alt="Gateway de Pagamento" className="rounded-md shadow-md" />
+          <img src="https://i.postimg.cc/PfKDJ8rM/imagem-layer.png" alt="Gateway de Pagamento" className="rounded-md shadow-md" />
         </div>
       </div>
       <div className="max-w-[482px] h-32 mt-16 p-4 bg-white rounded-lg shadow-md flex justify-around">

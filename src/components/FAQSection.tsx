@@ -25,8 +25,14 @@ const FAQSection: React.FC = () => {
   ];
 
   return (
-    <section className="text-white py-16 px-8 bg-gradient-to-r from-blue-900 to-[#002980]">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8">
+    <section className="relative text-white py-16 px-8 bg-gradient-to-r from-#3DA1DD to-[#6AC7F9]">
+      <img
+        src="https://i.postimg.cc/HsnNKd7p/Group-1765.png"
+        alt="Perguntas Frequentes"
+        className="absolute left-[60%] bottom-[45%] w-64 h-full object-contain"
+        style={{ zIndex: 0 }}
+      />
+      <div className="relative z-10 max-w-7xl mx-auto grid md:grid-cols-2 gap-8">
         <div>
           {faqs.map((faq, index) => (
             <details
@@ -52,7 +58,7 @@ const FAQSection: React.FC = () => {
             </details>
           ))}
         </div>
-        <div className="flex flex-col items-center text-center">
+        <div className="flex flex-col items-center text-center relative z-10">
           <h2 className="text-3xl font-bold mb-4">Perguntas Frequentes</h2>
           <p className="mb-8">
             Ainda ficou com alguma dúvida? Chame no WhatsApp, iremos te responder, não é nenhuma assistente virtual, bot e muito menos estagiário.

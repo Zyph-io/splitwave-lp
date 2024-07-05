@@ -21,6 +21,7 @@ import MobileSectionSeven from './components/MobileSectionSeven'
 import MobileSectionEight from './components/MobileSectionEight'
 import MobileSectionNine from './components/MobileSectionNine'
 import MobileFAQSection from './components/MobileFAQSection'
+import TimeSection from './components/TimeSection'
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
             <CarouselSection />
             <TrustedBySection />
             <FormSection />
+            <TimeSection />
             <FAQSection />
           </main>
           <FooterSection />
