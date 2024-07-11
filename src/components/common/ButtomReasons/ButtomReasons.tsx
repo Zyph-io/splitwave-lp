@@ -29,11 +29,11 @@ export default function ButtomReasons(){
     
     return(
         <>
-         <div className="relative grid grid-cols-2 lg:grid-cols-3 gap-12 mb-[11rem] px-20">
+         <div className="relative grid grid-cols-2 lg:grid-cols-3 gap-12 mt-28 px-20">
           {reasons.map((reason, index) => (
             <div
               key={index}
-              className={` w-[367px] h-[84px]  mt-[-7px] bg-buttom-servide font-ubuntu cursor-pointer  flex items-center  rounded-lg shadow-lg transform transition duration-300 hover:scale-105 ${index < positionClasses.length ? positionClasses[index] : ''}`}
+              className={` w-[367px] h-[84px]  bg-buttom-servide font-ubuntu cursor-pointer  flex items-center  rounded-lg shadow-lg transform transition duration-300 hover:scale-105 ${index < positionClasses.length ? positionClasses[index] : ''}`}
             >
               {/* icone  */}
               <div className="lg:flex bg-buttom-servide-plus rounded-[8px] p-2 items-center justify-center ml-[-1rem] shadow">
