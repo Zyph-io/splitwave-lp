@@ -1,7 +1,7 @@
 import './App.css'
 import CarouselSection from './components/CarouselSection'
 import FAQSection from './components/FAQSection'
-import FeatureCards from './components/FeatureCards'
+import FeatureCards from './components/Sections/FeatureCards/FeatureCards'
 import FooterSection from './components/Footer/FooterSection'
 import FormSection from './components/FormSection'
 import Header from './components/Header/Header'

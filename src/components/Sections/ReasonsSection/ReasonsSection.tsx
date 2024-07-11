@@ -6,7 +6,7 @@ import traco from "../../../assets/traco.png";
 
 const ReasonsSection = () => {
   return (
-    <section className="relative bg-blue-900  overflow-hidden pt-[90px]">
+    <section className="relative bg-blue-900  overflow-hidden pt-[50px]">
       <div className="absolute  mt-32  flex justify-center items-center w-full">
         <img
           src={dashborad}
