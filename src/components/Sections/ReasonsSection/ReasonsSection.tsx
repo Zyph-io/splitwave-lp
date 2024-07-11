@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
+import dashborad from "../../../assets/dashboard.png";
+import traco from "../../../assets/traco.png";
 
 const reasons = [
   "Suporte 24 horas",
@@ -33,16 +35,21 @@ const positionClasses = [
 
 const ReasonsSection = () => {
   return (
-    <section className="relative bg-blue-900 py-20 overflow-hidden">
-      <div className="absolute inset-0 opacity-60 flex justify-center items-center w-full m-auto">
+    <section className="relative bg-blue-900 py-20 overflow-hidden ">
+      <div className="absolute inset-0  flex justify-center items-center w-full m-auto">
         <img
-          src="https://s3-alpha-sig.figma.com/img/d38a/7e8b/2dcbe87a5b742056a07f0ae314f8ca59?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JW8lurrWJxU7W1mpl1Y176NTg10aQWUxNQw3aZat3AtEqapr~0xzDSKAPmwf2PhoUGGxZ2uoCCvEBWM0tb1MKrAbR2yvZrzn1YiR~K4Del-KlzwmB6W5syhoY~Zvbc8oLknH2haav~0Egjn3~wAurkjW5gDBmq3-hFw9leN6h4VQsUhEC6e4HleCY-gMKLE-0Lsrqz0WlC7yLgqiB29e-bBmQGArJGXCESBnftNxgRHLg4QbIOQoNQHiK2zxTX7BMwQ7NQFpa1MJgdD7v7HEEiCwDWRd-yko6YKZ3wVcf~8CoTIdl6vOFWDNwGuUdowWVaCJjqO9i4tsYWyqBwnPYA__"
+          src={dashborad}
           alt="Mockup Background"
-          className="w-[47em] h-[27rem] object-cover"
+          className="w-[47em] h-[27rem] object-cover relative"
         />
       </div>
       <div className="container relative mx-auto px-4 text-center text-white">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12">12 MOTIVOS PARA ESCOLHER A <span className="text-blue-300">SPLITWAVE</span></h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 font-inter">12 MOTIVOS PARA ESCOLHER A
+          <div className='flex flex-col justify-center items-center font-inter gap-2'>
+            <span className="text-blue-300">SPLITWAVE</span>
+            <img src={traco} alt="traco azul" className='w-[199px]' />
+          </div>
+        </h2>
         <div className="relative grid grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-6 mb-12">
           {reasons.map((reason, index) => (
             <div
@@ -56,8 +63,8 @@ const ReasonsSection = () => {
             </div>
           ))}
         </div>
-        <div className="flex justify-center">
-          <button className="w-full sm:w-[365px] h-[70px] text-white py-4 px-8 rounded-lg text-lg md:text-[26px] font-bold hover:bg-blue-700 transition duration-300 bg-gradient-to-r from-[#3DA1DD] to-[#6AC7F9]">
+        <div className="flex justify-center absolute left-1/4 ">
+          <button className="w-full sm:w-[365px] h-[70px] text-white py-4 px-8 mt-[-5rem] z-20 rounded-lg text-lg md:text-[26px] font-bold hover:bg-blue-700 transition duration-300 bg-gradient-to-r from-[#3DA1DD] to-[#6AC7F9]">
             Falar com especialista
           </button>
         </div>
