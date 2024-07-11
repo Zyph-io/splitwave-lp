@@ -10,7 +10,7 @@ function Header() {
       <div className="flex items-center">
         <img src={logo} alt="Splitwave Logo" className="w-56 h-20  " />
       </div>
-      <nav className="flex items-center justify-center font-bold gap-8 mr-28">
+      <nav className="flex items-center justify-center font-bold gap-9 mr-28">
         <a href="#" className="hover:text-gray-300 text-xs ">Home</a>
         <a href="#" className="hover:text-gray-300 text-xs">Sobre nós</a>
         <a href="#" className="hover:text-gray-300 text-xs">Serviços</a>
