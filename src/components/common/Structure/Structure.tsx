@@ -5,7 +5,7 @@ import suporte from "../../../assets/Suporte.svg"
 export default function Struture(){
     return(
         <>
-          <div className="w-fit bg-white  flex justify-center items-center gap-11 py-9  px-10  rounded-[20px] ml-[-5px] mt-10 ">
+          <div className="w-fit bg-white  flex justify-center items-center gap-11 py-9  px-9  rounded-[20px] ml-[-5px] mt-10 ">
              <div className="flex justify-center items-center w-28 h-12">
                 <div className="bg-[#1A3C75] p-3 rounded-3xl mr-2">
                     <img src={seguranca} alt="Mais Segurança" />
