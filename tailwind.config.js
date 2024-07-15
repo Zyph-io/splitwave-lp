@@ -18,7 +18,8 @@ module.exports = {
       },
       fontFamily:{
         ubuntu:['Ubuntu'],
-        inter:['Inter']
+        inter:['Inter'],
+        poppins: ['Poppins']
       }
     },
   },

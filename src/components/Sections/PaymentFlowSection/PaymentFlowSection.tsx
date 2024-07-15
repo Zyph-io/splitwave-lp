@@ -2,10 +2,10 @@ import React from 'react';
 import fluxo from "../../../assets/fluxo.svg";
 const PaymentFlowSection: React.FC = () => {
   return (
-    <section className="bg-blue-900 text-white ">
+    <section className="bg-blue-900 text-white pb-[229px] ">
       <div className="flex flex-col justify-center items-center text-center mb-12">
-        <h2 className="text-[38px] font-bold mb-4 font-inter">FLUXO DE SPLIT DE PAGAMENTOS FACILITADO</h2>
-        <p className="text-lg w-[55rem] border font-light text-[#3DA1DD]">
+        <h2 className="text-[38px] font-bold  font-inter">FLUXO DE SPLIT DE PAGAMENTOS FACILITADO</h2>
+        <p className="text-base w-[55rem] font-light font-poppins text-[#3DA1DD]">
           Comissione todas as recebedores envolvidos em um único fluxo financeiro.
            Adicione isso à nossa conciliação, antecipação de recebíveis e controle tudo através de uma só plataforma.
         </p>
