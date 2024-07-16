@@ -33,7 +33,7 @@ export default function ButtomReasons(){
           {reasons.map((reason, index) => (
             <div
               key={index}
-              className={` w-[367px] h-[84px]  bg-buttom-servide font-ubuntu cursor-pointer  flex items-center  rounded-lg shadow-lg transform transition duration-300 hover:scale-105 ${index < positionClasses.length ? positionClasses[index] : ''}`}
+              className={` w-[367px] h-[84px] rounded-[20px] bg-buttom-servide font-ubuntu cursor-pointer  flex items-center   shadow-lg transform transition duration-300 hover:scale-105 ${index < positionClasses.length ? positionClasses[index] : ''}`}
             >
               {/* icone  */}
               <div className="lg:flex bg-buttom-servide-plus rounded-[8px] p-2 items-center justify-center ml-[-1rem] shadow">
