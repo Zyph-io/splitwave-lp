@@ -1,4 +1,3 @@
-import React from 'react';
 import CardCondition from '../../common/CardCondition/CardCondition';
 import checkout from "../../../assets/checkout.svg";
 import taxa from "../../../assets/taxa.svg"

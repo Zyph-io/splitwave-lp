@@ -1,4 +1,3 @@
-import React from "react";
 import seguranca from "../../../assets/Seguranca.svg"
 import integracao from "../../../assets/integracao.svg"
 import suporte from "../../../assets/Suporte.svg"

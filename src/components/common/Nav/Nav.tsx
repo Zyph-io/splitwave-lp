@@ -1,4 +1,3 @@
-import React from "react";
 import ButtomLinear from "../ButtomLinear/ButtomLinear";
 
 interface Props{

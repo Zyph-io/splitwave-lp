@@ -1,5 +1,5 @@
 // src/components/Header.tsx
-import React, { useState } from "react";
+import { useState } from "react";
 import Nav from "../common/Nav/Nav";
 import Logo from "../common/Logo/Logo";
 import ButtomMenuMobile from "../common/ButtomMenuMobile/ButtomMenuMobile";

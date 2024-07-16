@@ -1,4 +1,3 @@
-import React from "react";
 import Profile from "../../../assets/Profile.svg";
 import stars from "../../../assets/stars.svg";
 import verification from "../../../assets/verication.svg"
