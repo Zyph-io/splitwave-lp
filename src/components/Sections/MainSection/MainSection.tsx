@@ -17,7 +17,7 @@ const MainSection: React.FC = () => {
           <h2 className='mt-12 text-xl font-bold font-inter'>INFRAESTRUTURA COMPLETA</h2>
           <Struture/>
         </div>
-        <div className=" md:w-1/2">
+        <div className=" md:w-1/2 ">
           <img src={fotoMaquina} alt="Gateway de Pagamento" className="rounded-[110px]" />
         </div>
       </div>
