@@ -1,12 +1,20 @@
 import React from "react";
 
+interface Props{
+  color: string;
+  width: string;
+  heigth: string;
+}
 
-export default function Elipse(){
+export default function Elipse({color, width, heigth}:Props ){
+
+    
     return(
         <>
-          <div className="absolute bg-[#03D6FF] opacity-10 w-[808px] h-[813px] ">
-             
-          </div>
+          <div 
+             style={ {width: width, height: heigth, background: color, position: "absolute", right:"15px", top:"-500px"}  }
+             className="opacity-20 rounded-full blur-3xl"
+            ></div>
         </>
     )
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-
+import Elipse from "../../common/Elipse/Elipse";
 import { register } from 'swiper/element/bundle';
 import { Swiper, SwiperSlide } from 'swiper/react'
 register();
@@ -8,6 +8,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+
 
 export default function TrustedBySection() {
 
@@ -28,13 +29,16 @@ export default function TrustedBySection() {
 
   return (
     <>
-      <section className="bg-blue-900 text-white py-16 px-8">
-        <div className="max-w-7xl mx-auto text-center">
+      <section className="relative bg-blue-900 text-white py-16 px-8">
+      <Elipse width="607px" heigth="661px" color="#4EDFFC"  />
+        <div className="relative max-w-7xl mx-auto text-center">
+        
           <h2 className="text-[34px] font-inter font-bold mb-2"> QUEM CONFIU NA SPLITWAVE </h2>
           <p className="font-inter font-normal text-lg mb-[42px]">Essas grandes empresas confiam na
              <span className='font-bold'>SPLITWAVE</span>
               devido ao nosso método desenvolvido exclusivamente para performance online.
           </p>
+          
         </div>
         <div className="mx-60 flex justify-center items-center">
           <Swiper pagination={true} autoplay={{ delay: 5000 }} slidesPerView={6} className=" swiper-slide ">
