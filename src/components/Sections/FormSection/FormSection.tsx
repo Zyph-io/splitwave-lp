@@ -17,7 +17,7 @@ export default function FormSection() {
     <>
       <div className="bg-blue-900">
         <div>
-          <h2 className="text-[40px] font-normal font-ubuntu text-white  text-center">
+          <h2 className="text-[40px] font-normal font-ubuntu text-white  text-center max-md:text-[30px]">
             Pagamentos simples, inovadores e totalmente <br />personalizados à sua marca
           </h2>
         </div>
