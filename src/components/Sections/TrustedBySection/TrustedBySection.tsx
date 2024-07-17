@@ -27,9 +27,9 @@ export default function TrustedBySection() {
 
   return (
     <>
-      <section className="relative bg-blue-900 text-white py-16 px-8">
+      <section className=" relative flex flex-col justify-center items-center bg-blue-900 text-white py-16 px-8 max-md:px-1 max-md:w-full">
       <Elipse width="607px" heigth="661px" color="#4EDFFC"  />
-        <div className="relative max-w-7xl mx-auto text-center">
+        <div className=" mx-auto text-center">
         
           <h2 className="text-[34px] font-inter font-bold mb-2"> QUEM CONFIU NA SPLITWAVE </h2>
           <p className="font-inter font-normal text-lg mb-[42px]">Essas grandes empresas confiam na
@@ -38,11 +38,11 @@ export default function TrustedBySection() {
           </p>
           
         </div>
-        <div className="mx-60 flex justify-center items-center">
-          <Swiper pagination={true} autoplay={{ delay: 5000 }} slidesPerView={6} className=" swiper-slide ">
+        <div className="max-w-[1200px] mx-60  max-md:mx-0 max-md:w-[900px] max-md:items-center max-md:overflow-x-hidden  ">
+          <Swiper pagination={true} autoplay={{ delay: 5000 }} slidesPerView={6} className=" ">
             {data.map((item) => (
               <SwiperSlide key={item.id}>
-                <img src={item.imagem} alt="Parceiros da SplitWare" className="rounded-[20px] mb-16" />
+                <img src={item.imagem} alt="Parceiros da SplitWare" className="rounded-[20px] max-w-[180px] mb-16 max-md:w-32 " />
               </SwiperSlide>
             ))}
 
