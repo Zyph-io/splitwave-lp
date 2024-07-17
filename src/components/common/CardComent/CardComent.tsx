@@ -8,7 +8,7 @@ interface Props{
 export default function CardComent({text}:Props) {
     return(
         <>
-          <div className=" border max-w-[530px] bg-[#222222] flex flex-col justify-center items-center p-10 mx-auto rounded-xl  max-md:mx-2 max-md:p-5 ">
+          <div className=" max-w-[530px] bg-[#222222] flex flex-col justify-center items-center p-10 mx-auto rounded-xl  max-md:mx-2 max-md:p-5 ">
              <div className="">
               <img src={Profile} alt="Usuário" className="max-w-[59px] max-md:w-[30px]" />
               <div className="flex my-6 max-md:my-1">
