@@ -53,7 +53,7 @@ interface Props {
   response: string;
 }
 
-export default function CustomizedAccordions({ question, response }: Props) {
+export default function Questions({ question, response }: Props) {
   // const handleChange =
   //   (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
   //     setExpanded(newExpanded ? panel : false);
