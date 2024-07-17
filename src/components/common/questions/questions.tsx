@@ -26,9 +26,10 @@ const AccordionSummary = styled((props: AccordionSummaryProps) => (
   />
 ))(({ theme }) => ({
     borderRadius: "8px",
-    width: "560px",
+    minwidth: "5px",
     color: "#fff",
     border: "nome",
+    
   backgroundColor:
     theme.palette.mode === "dark"
       ? "rgba(37, 104, 239, 1)"
@@ -61,7 +62,7 @@ export default function Questions({ question, response }: Props) {
 
   return (
     <div >
-      <Accordion className="" style={{border:"none", borderRadius: "9px", marginTop:"16px", width:"555px"}}>
+      <Accordion  style={{border:"none", borderRadius: "9px", marginTop:"16px",  minWidth:"56"}}>
         <AccordionSummary
           aria-controls="panel1d-content"
           id="panel1d-header"
