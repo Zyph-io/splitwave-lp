@@ -4,7 +4,7 @@ import LogoGhg from "../../assets/Logo Marcelo.svg"
 
 const FooterSection: React.FC = () => {
   return (
-    <footer className="bg-blue-500 text-white py-4 px-8 flex justify-around items-center">
+    <footer className="bg-blue-500 text-white py-4 px-8 flex justify-around items-center max-md:flex-col">
       <div className="flex items-center">
         <img src={Logo} alt="Logo Splitwave" className="mr-2 w-[134]" />
       </div>
