@@ -5,7 +5,7 @@ import split from "../../../assets/split.svg";
 
 const FeatureCards = () => {
   return (
-    <section className="bg-blue-900 flex justify-center items-center py-20">
+    <section className="bg-blue-900 flex justify-center items-center py-20  max-md:snap-x max-md:overflow-x-scroll max-md:justify-start">
       <CardCondition  
         subtitulo='CHECKOUT PERSONALIZADO' 
         texto='Proporcione uma experiência de compra exclusiva e adaptada aos valores e visual da empresa do seu cliente.' 
