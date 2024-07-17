@@ -3,7 +3,7 @@ import CardFaq from '../../common/CardFaq/CardFaq';
 import Questions from '../../common/Questions/Questions';
 import imgXadrez from "../../../assets/xadrez.svg";
 import LogoFaq from "../../../assets/logoFaq.svg";
-
+import Elipse from '../../common/Elipse/Elipse';
 
 export default function FAQSection() {
   return (
@@ -18,7 +18,9 @@ export default function FAQSection() {
             />
           </div>
           <div>
+            <Elipse width='808px' heigth='813px' color='#03D6FF'  />
             <img src={imgXadrez} alt="" className=' ml-72 w-[808px] ' />
+            
           </div>
         </div>
         <div className="flex -mt-52 ">

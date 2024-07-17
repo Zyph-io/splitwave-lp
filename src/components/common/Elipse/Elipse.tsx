@@ -4,9 +4,13 @@ interface Props{
   color: string;
   width: string;
   heigth: string;
+  position: string;
+  right: string;
+  top: string;
+
 }
 
-export default function Elipse({color, width, heigth}:Props ){
+export default function Elipse({color, width, heigth, }:Props ){
 
     
     return(
