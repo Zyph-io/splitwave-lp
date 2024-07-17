@@ -1,4 +1,3 @@
-import * as React from "react";
 import { styled } from "@mui/material/styles";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import MuiAccordion, { AccordionProps } from "@mui/material/Accordion";
@@ -55,14 +54,14 @@ interface Props {
 }
 
 export default function CustomizedAccordions({ question, response }: Props) {
-  const handleChange =
-    (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
-      setExpanded(newExpanded ? panel : false);
-    };
+  // const handleChange =
+  //   (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
+  //     setExpanded(newExpanded ? panel : false);
+  //   };
 
   return (
     <div >
-      <Accordion className="" style={{border:"none", borderRadius: "9px", marginTop:"16px", width:"555px"}} onChange={handleChange("panel1")}>
+      <Accordion className="" style={{border:"none", borderRadius: "9px", marginTop:"16px", width:"555px"}}>
         <AccordionSummary
           aria-controls="panel1d-content"
           id="panel1d-header"

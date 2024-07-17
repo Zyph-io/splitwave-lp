@@ -1,4 +1,3 @@
-import React from "react";
 import commentarioDireito from "../../../assets/comentarioDireito.svg"
 import commentarioEsquerdo from "../../../assets/comentarioEsquerdo.svg"
 

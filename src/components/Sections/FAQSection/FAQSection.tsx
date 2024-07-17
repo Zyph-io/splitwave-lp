@@ -1,4 +1,3 @@
-import React from 'react';
 import CardFaq from '../../common/CardFaq/CardFaq';
 import Questions from '../../common/Questions/Questions';
 import imgXadrez from "../../../assets/xadrez.svg";

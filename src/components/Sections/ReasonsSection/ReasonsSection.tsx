@@ -1,4 +1,3 @@
-import React from 'react';
 import ButtomReasons from '../../common/ButtomReasons/ButtomReasons';
 import dashborad from "../../../assets/dashboard.png";
 import traco from "../../../assets/traco.png";

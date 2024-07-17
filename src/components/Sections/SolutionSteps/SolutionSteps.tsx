@@ -1,4 +1,3 @@
-import React from 'react';
 import LineLeft from '../../common/LineLeft/LineLeft';
 import LineRight from '../../common/LineRight/LineRight';
 import traco from "../../../assets/traco.png"

@@ -1,5 +1,3 @@
-import React from "react";
-
 import Elipse from "../../common/Elipse/Elipse";
 import { register } from 'swiper/element/bundle';
 import { Swiper, SwiperSlide } from 'swiper/react'
