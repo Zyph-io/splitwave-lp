@@ -38,7 +38,7 @@ export default function FAQSection() {
                 <img src={LogoFaq} alt="" className='max-w-[275px]  max-md:hidden' />
                 <h3 className='font-saira font-medium text-white text-[48px] max-md:text-center max-md:text-[40px]'>Ainda ficou com alguma dúvida?</h3>
                 <p className='font-saira font-normal text-[18px] text-white max-md:text-center'>Chame no WhatsApp, iremos te responder, não é nenhuma assistente virtual, bot e muito menos o estagiário.</p>
-                <button className='bg-buttom-color font-saira font-semibold text-[24px] w-[406px] h-[76px] rounded-[8px] text-white mt-8  max-md:w-[350px] max-md:text-[20px]'>Chamar no WhatsApp</button>
+                <button className='bg-buttom-color font-saira font-semibold text-[24px] w-[406px] h-[76px] rounded-[8px] text-white mt-8  max-md:w-[320px] max-md:text-[20px]'>Chamar no WhatsApp</button>
               </div>
             </div>
 
