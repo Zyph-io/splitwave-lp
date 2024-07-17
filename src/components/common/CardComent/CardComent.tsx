@@ -8,14 +8,14 @@ interface Props{
 export default function CardComent({text}:Props) {
     return(
         <>
-          <div className=" flex flex-col justify-center items-center p-10 mx-auto rounded-xl  bg-[#222222] w-[530px] ">
+          <div className=" border max-w-[530px] bg-[#222222] flex flex-col justify-center items-center p-10 mx-auto rounded-xl  max-md:mx-2 max-md:p-5 ">
              <div className="">
-              <img src={Profile} alt="Usuário" className="w-[59px] h-[63px]" />
-              <div className="flex my-3">
-                <img src={stars} alt="" className="w-[101px] h-[18px] mr-1"/>
-                <img src={verification} alt="" className="w-[14px] h-[15px]" />
+              <img src={Profile} alt="Usuário" className="max-w-[59px] max-md:w-[30px]" />
+              <div className="flex my-6 max-md:my-1">
+                <img src={stars} alt="" className="max-w-[101px]  mr-1 max-md:w-[50px]" />
+                <img src={verification} alt="" className="max-w-[14px]" />
               </div>
-             <p className="font-inter font-bold text-base">{text}</p>
+             <p className="font-inter font-bold text-base max-md:text-xs ">{text}</p>
              </div>
           </div>        
         </>
