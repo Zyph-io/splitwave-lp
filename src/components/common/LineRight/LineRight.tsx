@@ -21,7 +21,7 @@ export default function LineRight() {
                     </div>
                     <div className=" absolute mt-[-1.5rem] right-[32.5%] flex z-10 items-center justify-center w-6 h-6 border-2 border-blue-500 rounded-full max-md:right-0">
                         <div className="absolute w-2 h-2 z-50   bg-[#3DA1DD] rounded-full"></div>
-                        <div className="absolute max-w-[198px] mt-[5rem] ml-[11rem] max-md:mr-60 max-md:">
+                        <div className="absolute max-w-[198px] mt-[5rem] ml-[11rem] max-md:mr-[15.2rem] ">
                             <h4 className="font-inter text-white text-lg font-normal mt-24 max-md:text-[13px] max-md:leading-[20px] max-md:text-right max-md:pr-2">
                                 Checkout <br /> Personalizado e com alta taxa de aprovacão
                             </h4>
