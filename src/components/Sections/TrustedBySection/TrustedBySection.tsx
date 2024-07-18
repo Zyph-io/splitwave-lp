@@ -27,7 +27,7 @@ export default function TrustedBySection() {
 
   return (
     <>
-      <section className=" relative flex flex-col justify-center items-center bg-blue-900 text-white py-16 px-8 max-md:px-1 max-md:w-full">
+      <section className=" relative flex flex-col justify-center items-center bg-blue-900 text-white py-16 px-8 max-md:px-1 max-md:w-full max-md:overflow-x-hidden ">
       <Elipse width="607px" heigth="661px" color="#4EDFFC"  />
         <div className=" mx-auto text-center">
         
@@ -38,7 +38,7 @@ export default function TrustedBySection() {
           </p>
           
         </div>
-        <div className="max-w-[1200px] mx-60  max-md:mx-0 max-md:w-[900px] max-md:items-center max-md:overflow-x-hidden  ">
+        <div className="max-w-[1200px] mx-60  max-md:mx-0 max-md:w-[900px] max-md:items-center  ">
           <Swiper pagination={true} autoplay={{ delay: 5000 }} slidesPerView={6} className=" ">
             {data.map((item) => (
               <SwiperSlide key={item.id}>
