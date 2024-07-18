@@ -32,17 +32,17 @@ export default function TrustedBySection() {
         <div className=" mx-auto text-center">
         
           <h2 className="text-[34px] font-inter font-bold mb-2"> QUEM CONFIU NA SPLITWAVE </h2>
-          <p className="font-inter font-normal text-lg mb-[42px]">Essas grandes empresas confiam na
-             <span className='font-bold'>SPLITWAVE</span>
+          <p className="font-inter font-normal text-lg mb-[42px]">Essas grandes empresas confiam na 
+             <strong className="ml-1">SPLITWAVE</strong>
               devido ao nosso método desenvolvido exclusivamente para performance online.
           </p>
           
         </div>
-        <div className="max-w-[1200px] mx-60  max-md:mx-0 max-md:w-[900px] max-md:items-center  ">
-          <Swiper pagination={true} autoplay={{ delay: 5000 }} slidesPerView={6} className=" ">
+        <div className="max-w-[1200px] mx-60  max-md:mx-0 max-md:w-[900px] max-md:items-center ">
+          <Swiper pagination={true} autoplay={{ delay: 5000 }} slidesPerView={6}  className=" ">
             {data.map((item) => (
               <SwiperSlide key={item.id}>
-                <img src={item.imagem} alt="Parceiros da SplitWare" className="rounded-[20px] max-w-[180px] mb-16 max-md:w-32 " />
+                <img src={item.imagem} alt="Parceiros da SplitWare" className="rounded-[20px] max-w-[180px] mb-16 max-md:w-32 max-md:ml-[276px] " />
               </SwiperSlide>
             ))}
 
