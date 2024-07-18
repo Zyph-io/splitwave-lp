@@ -5,7 +5,7 @@ import traco from "../../../assets/traco.png"
 
 const SolutionSteps = () => {
   return (
-    <section className="bg-blue-900 pt-28 pb-56 relative ">
+    <section className="bg-blue-900 pt-28 pb-56 relative " id='sobreNos'>
       <div className="container mx-auto px-4 text-center  text-white relative ">
         <div className='flex justify-center gap-1 max-md:flex-col '>
           <div className=''>

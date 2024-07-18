@@ -8,7 +8,7 @@ import Struture from '../../common/Structure/Structure';
 
 const MainSection: React.FC = () => {
   return (
-    <section className=" flex justify-center bg-blue-900 text-white py-16 px-8 max-md:px-4">
+    <section className=" flex justify-center bg-blue-900 text-white py-16 px-8 max-md:px-4" id='home'>
       <div className="max-w-[1150px] flex justify-star items-center max-md:w-full ">
         <div className="items-start justify-start mb-8 max-md:pl-0">
           <h1 className="text-4xl font-bold font-inter text-[52px] leading-[67px] mb-11 max-md:mb-5  max-md:text-3xl ">Tenha seu próprio <br /> gateway de pagamento</h1>

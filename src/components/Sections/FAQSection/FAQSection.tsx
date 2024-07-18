@@ -7,7 +7,7 @@ import Elipse from '../../common/Elipse/Elipse';
 export default function FAQSection() {
   return (
     <>
-      <section className=' py-24 bg-blue-900 max-md:py-0'>
+      <section className=' py-24 bg-blue-900 max-md:py-0 scroll-smooth ' id='faq'>
 
         <div className='relative flex justify-center items-center pl-40 max-md:pl-0'>
           <div>
@@ -18,7 +18,7 @@ export default function FAQSection() {
             />
           </div>
           <div className=' max-md:mt-[15rem] overflow-x-hidden'>
-            <Elipse width='808px' heigth='813px' color='#03D6FF' />
+            <div className=' absolute w-[33%] h-[80%] mt-28 ml-80 bg-[#002980] rounded-full opacity-80 blur-3xl max-md:hidden'></div>
             <img src={imgXadrez} alt="" className=' ml-72 w-[808px] max-md:ml-12 max-md:w-[59rem] ' />
 
           </div>

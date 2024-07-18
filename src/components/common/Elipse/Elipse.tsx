@@ -15,7 +15,7 @@ export default function Elipse({color, width, heigth, }:Props ){
         <>
           <div 
              style={ {width: width, height: heigth, background: color, position: "absolute", right:"15px", top:"-500px"}  }
-             className="opacity-20 rounded-full blur-3xl"
+             className="opacity-20 rounded-full blur-3xl max-md:hidden"
             ></div>
         </>
     )

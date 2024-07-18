@@ -1,11 +1,12 @@
 import ButtomReasons from '../../common/ButtomReasons/ButtomReasons';
 import dashborad from "../../../assets/dashboard.png";
 import traco from "../../../assets/traco.png";
-
+import ButtomAnchor from '../../common/ButtomAnchor/ButtomAnchor';
 
 const ReasonsSection = () => {
   return (
-    <section className="relative bg-blue-900  overflow-hidden pt-[50px] ">
+    <section className="relative bg-blue-900  overflow-hidden pt-[50px] " >
+      <ButtomAnchor/>
       <div className="absolute  mt-32  flex justify-center items-center w-full">
         <img
           src={dashborad}

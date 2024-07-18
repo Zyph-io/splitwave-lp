@@ -27,7 +27,7 @@ export default function TrustedBySection() {
 
   return (
     <>
-      <section className=" relative flex flex-col justify-center items-center bg-blue-900 text-white py-16 px-8 max-md:px-1 max-md:w-full max-md:overflow-x-hidden ">
+      <section className=" relative flex flex-col justify-center items-center bg-blue-900 text-white py-16 px-8 max-md:px-1 max-md:w-full max-md:overflow-x-hidden scroll-smooth " id="trusted">
       <Elipse width="607px" heigth="661px" color="#4EDFFC"  />
         <div className=" mx-auto text-center">
         
