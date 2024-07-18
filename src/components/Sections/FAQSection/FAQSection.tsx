@@ -17,8 +17,8 @@ export default function FAQSection() {
                       players do mercado estão jogando, com uma solução própria, avançada e que garanta sua escalabilidade!'
             />
           </div>
-          <div className=' max-md:mt-[15rem] overflow-x-hidden'>
-            <div className=' absolute w-[33%] h-[80%] mt-28 ml-80 bg-[#002980] rounded-full opacity-80 blur-3xl max-md:hidden'></div>
+          <div className=' max-md:mt-[15rem] overflow-x-hidden '>
+            <div className=' absolute w-[33%] h-[80%] mt-28 ml-80 bg-[#002980]  rounded-full opacity-80 blur-3xl max-md:mt-2 max-md:ml-16 max-md:w-[80%]'></div>
             <img src={imgXadrez} alt="" className=' ml-72 w-[808px] max-md:ml-12 max-md:w-[59rem] ' />
 
           </div>
