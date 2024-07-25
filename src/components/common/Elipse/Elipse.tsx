@@ -2,9 +2,9 @@ interface Props{
   color: string;
   width: string;
   heigth: string;
-  position: string;
-  right: string;
-  top: string;
+  position?: string;
+  right?: string;
+  top?: string;
 
 }
 

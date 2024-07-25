@@ -1,4 +1,3 @@
-import React from "react";
 import { GoArrowUp } from "react-icons/go";
 export default function ButtomAnchor(){
 

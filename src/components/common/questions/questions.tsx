@@ -47,6 +47,9 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(2),
   borderTop: "",
   width: "560px",
+  [theme.breakpoints.down('md')]: {
+    width: "100%",
+  },
 }));
 
 interface Props {
@@ -55,20 +58,11 @@ interface Props {
 }
 
 export default function Questions({ question, response }: Props) {
-  // const handleChange =
-  //   (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
-  //     setExpanded(newExpanded ? panel : false);
-  //   };
-
-
   const responseLines = response.split('\n')
-  
-  
-  console.log(responseLines)
 
   return (
     <div >
-      <Accordion  style={{border:"none", borderRadius: "9px", marginTop:"16px",  minWidth:"56"}}>
+      <Accordion style={{border:"none", borderRadius: "9px", marginTop:"16px",  minWidth:"56"}}>
         <AccordionSummary
           aria-controls="panel1d-content"
           id="panel1d-header"
@@ -77,11 +71,11 @@ export default function Questions({ question, response }: Props) {
           <Typography className="">{question}</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          {responseLines.map( (line)=>( 
-            <>
+          {responseLines.map((line : string, idx : number)=>( 
+            <div key={idx}>
               <Typography>{line}</Typography>
               <br/>
-            </>
+            </div>
            ))}
         </AccordionDetails>
       </Accordion>

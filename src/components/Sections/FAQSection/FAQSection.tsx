@@ -2,14 +2,8 @@ import CardFaq from '../../common/CardFaq/CardFaq';
 import Questions from '../../common/Questions/Questions';
 import imgXadrez from "../../../assets/xadrez.svg";
 import LogoFaq from "../../../assets/logoFaq.svg";
-import Elipse from '../../common/Elipse/Elipse';
-import point from ""
 
 export default function FAQSection() {
-
-  const servicos = '';
-
-
 
   return (
     <>
