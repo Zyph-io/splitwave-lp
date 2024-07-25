@@ -60,6 +60,12 @@ export default function Questions({ question, response }: Props) {
   //     setExpanded(newExpanded ? panel : false);
   //   };
 
+
+  const responseLines = response.split('\n')
+  
+  
+  console.log(responseLines)
+
   return (
     <div >
       <Accordion  style={{border:"none", borderRadius: "9px", marginTop:"16px",  minWidth:"56"}}>
@@ -71,7 +77,12 @@ export default function Questions({ question, response }: Props) {
           <Typography className="">{question}</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography> {response} </Typography>
+          {responseLines.map( (line)=>( 
+            <>
+              <Typography>{line}</Typography>
+              <br/>
+            </>
+           ))}
         </AccordionDetails>
       </Accordion>
     </div>

@@ -2,6 +2,113 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
+
+
+
+
+
+.bricks--section {
+   background-color: transparent !important;
+   width: 32vw !important;
+}
+
+.bricks--component{
     
+}
+
+.bricks--column div {
+    background-color: transparent !important;
+    width: 70vh !important;
+    
+}
+
+.bricks--component h1{
+    color: red !important;
+    display: none;
+}
+.bricks--component h2{
+    display: none;
+}
+
+
+.bricks--component .bricks-form{
+    width: 90vw !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center ;
+    margin: 0px !important;
+
+}
+
+
+.bricks-form__input{
+  background-color: #E0E0E0;
+  border-radius: 8px !important;
+  color: #828282 !important;
+  font-family: 'inter' !important;
+ 
+}
+
+.bricks-form__label{
+    color: #ffffff !important;
+    font-family: "inter" !important;
+}
+
+.bricks-form__submit{
+    padding: 0px !important ;
+  
+}
+
+
+.bricks--component .bricks--component-button {
+    font-family: 'inter' !important;
+    background: linear-gradient(90deg, #3DA1DD 0%, #6AC7F9 100%) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 0 !important;
+    margin-left: -0.8rem !important;
+    margin-bottom: 1rem !important;
+
+}
+
+.bricks--component .bricks--component-text p{
+      width: 40vw !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      padding: 0px !important;
+      margin-left: -4.5rem !important;
+      
+}
+
+.bricks--component span{
+    color: white !important;
+    font-size: 16px !important;
+    font-family: 'inter' !important;
+  
+}
+
+@media  (max-width: 768px) {
+    .bricks--column div {
+        margin-left: 2px !important;
+    }
+
+    .bricks--component .bricks--component-button{
+        margin-left: 0px !important;
+    }
+
+    .bricks--component .bricks-form{
+        margin-right: 0px !important;
+        
+    }
+    .bricks--column div{
+        width: 80vw !important;
+        margin-left: -2.5rem !important;
+    }
+    .bricks--component .bricks--component-button {
+        margin-left: -4.5rem !important;
+    }
+    .bricks--component .bricks--component-text p{
+        margin: 0px !;
+    }
 }

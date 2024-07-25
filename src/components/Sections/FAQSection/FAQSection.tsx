@@ -3,8 +3,14 @@ import Questions from '../../common/Questions/Questions';
 import imgXadrez from "../../../assets/xadrez.svg";
 import LogoFaq from "../../../assets/logoFaq.svg";
 import Elipse from '../../common/Elipse/Elipse';
+import point from ""
 
 export default function FAQSection() {
+
+  const servicos = '';
+
+
+
   return (
     <>
       <section className=' py-24 bg-blue-900 max-md:py-0 scroll-smooth ' id='faq'>
@@ -27,11 +33,20 @@ export default function FAQSection() {
         <div className="flex -mt-52 max-md:mt-0  ">
           <div className='max-w-[1042px] mx-auto relative flex items-center justify-center gap-10 max-md:w-full max-md:flex-col'>
             <div className='ml-24 max-md:w-full max-md:ml-0 max-md:px-4'>
-              <Questions question='Por que a SPLITWAVE é a melhor escolha?' response='n' />
-              <Questions question='Como a SPLITWAVE pode impulsionar minhas vendas?' response='n' />
-              <Questions question='Quão rápido posso esperar resultados com a SPLITWAVE' response='n' />
-              <Questions question='Como faço para iniciar com a SPLITWAVE' response='n' />
-              <Questions question='Quais serviços vocês prestam?' response='n' />
+              <Questions question='Por que a SPLITWAVE é a melhor escolha?' response='A SplitWave transforma transações online em experiências únicas e memoráveis, refletindo a identidade de cada negócio. Oferecemos soluções inovadoras e personalizadas, sempre alinhadas às tendências do mercado, garantindo que seu negócio esteja sempre à frente.'
+                                                                                       />
+              <Questions question='Como a SPLITWAVE pode impulsionar minhas vendas?' response='Nossas soluções de pagamento são projetadas para proporcionar uma jornada de compra fluida e memorável, aumentando a satisfação do cliente e, consequentemente, suas vendas. Com recursos avançados como split de pagamentos, conciliação e antecipação de recebíveis, você tem controle total das suas transações.' />
+              
+              <Questions question='Quão rápido posso esperar resultados com a SPLITWAVE' response='A implementação rápida e eficiente da SplitWave permite que você comece a ver melhorias nas suas transações e na satisfação do cliente em pouco tempo, adaptando-se rapidamente às demandas do mercado digital.' />
+             
+              <Questions question='Como faço para iniciar com a SPLITWAVE' response='Iniciar com a SplitWave é simples. Basta entrar em contato conosco para uma consulta personalizada. Nossa equipe irá guiá-lo através de cada etapa, desde a integração até o uso diário da nossa plataforma.' />
+              
+              <Questions question='Quais serviços vocês prestam?' response='Oferecemos um gateway completo com recursos essenciais para o sucesso do seu negócio, incluindo:
+&#8226; Soluções de pagamento personalizadas
+&#8226; Split de pagamentos pós-transacional
+&#8226; Conciliação de transações
+&#8226; Antecipação de recebíveis
+&#8226; Plataforma única para controle total financeiro.' />
             </div>
             <div className=' mr-40 max-md:mr-0 max-md:w-full max-md:pb-6'>
               <div className='max-md:flex max-md:flex-col max-md:items-center'>
