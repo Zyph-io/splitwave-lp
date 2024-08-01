@@ -27,7 +27,7 @@ export default function TrustedBySection() {
       <Elipse width="607px" heigth="661px" color="#4EDFFC"  />
         <div className="mx-auto text-center">
         
-          <h2 className="text-[34px] font-inter font-bold mb-2"> QUEM CONFIU NA SPLITWAVE </h2>
+          <h2 className="text-[34px] font-inter font-bold mb-2"> QUEM CONFIOU NA SPLITWAVE </h2>
           <p className="font-inter font-normal text-lg mb-[42px]">Essas grandes empresas confiam na 
              <strong className="mx-1">SPLITWAVE</strong>
               devido ao nosso método desenvolvido exclusivamente para performance online.

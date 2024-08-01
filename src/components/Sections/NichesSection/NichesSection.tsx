@@ -17,9 +17,9 @@ const NichesSection: React.FC = () => {
         
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
-        <div className="text-center">
+        {/* <div className="text-center">
           <img src={cassino} alt="Cassino" className="mb-4" />
-        </div>
+        </div> */}
         <div className="text-center">
           <img src={ecommerce} alt="Cassino" className="mb-4" />
         </div>
