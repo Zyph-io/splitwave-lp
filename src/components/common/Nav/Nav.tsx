@@ -13,7 +13,7 @@ export default function Nav({isOpen}:Props){
         <nav
         className={`${
           isOpen ? "absolute right-0 left-0  top-[75px] flex flex-col justify-end items-end gap-4 px-8 py-3 " : "hidden"
-        }  text-white font-ubuntu font-bold lg:gap-[49px]  md:flex md:items-center md:justify-center lg:mr-28   bg-blue-900 `}
+        }  text-white font-ubuntu font-bold lg:gap-[49px]  md:flex md:items-center md:justify-center   bg-blue-900 `}
       >
             <a
               href="#home"

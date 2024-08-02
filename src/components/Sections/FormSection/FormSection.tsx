@@ -7,7 +7,7 @@ export default function FormSection() {
     //@ts-expect-error RDStation ira vim da biblioteca externa.
     if (window.RDStationForms && [...ref.current.children].length < 1) {
       //@ts-expect-error RDStation ira vim da biblioteca externa.
-      new window.RDStationForms('digital-growth-c69546b557d81d6cfb85', 'null').createForm()
+      new window.RDStationForms('leads-b125aa7c11be23b21ed9', 'null').createForm()
     }
 
     console.log('rendered')
@@ -21,7 +21,7 @@ export default function FormSection() {
             Pagamentos simples, inovadores e totalmente <br />personalizados à sua marca
           </h2>
         </div>
-        <div className=" flex flex-col justify-center items-center max-w-[700px] mx-auto" role="main" id="digital-growth-c69546b557d81d6cfb85" ref={ref}></div>
+        <div className=" flex flex-col justify-center items-center max-w-[700px] mx-auto" role="main" id="leads-b125aa7c11be23b21ed9" ref={ref}></div>
       </div>
     </>
   )

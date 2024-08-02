@@ -1,7 +1,6 @@
 // src/components/NichesSection.tsx
 import React from 'react';
 import traco from "../../../assets/traco.png";
-import cassino from "../../../assets/cassino.svg"
 import drop from "../../../assets/drop.svg";
 import ecommerce from "../../../assets/ecommerce.svg";
 

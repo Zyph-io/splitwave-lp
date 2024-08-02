@@ -1,12 +1,12 @@
-import ButtomReasons from '../../common/ButtomReasons/ButtomReasons';
+import ButtomReasons from "../../common/ButtomReasons/ButtomReasons";
 import dashborad from "../../../assets/dashboard.png";
 import traco from "../../../assets/traco.png";
-import ButtomAnchor from '../../common/ButtomAnchor/ButtomAnchor';
+import ButtomAnchor from "../../common/ButtomAnchor/ButtomAnchor";
 
 const ReasonsSection = () => {
   return (
-    <section className="relative bg-blue-900  overflow-hidden pt-[50px] " >
-      <ButtomAnchor/>
+    <section className="relative bg-blue-900  overflow-hidden pt-[50px] ">
+      <ButtomAnchor />
       <div className="absolute  mt-32  flex justify-center items-center w-full">
         <img
           src={dashborad}
@@ -15,17 +15,23 @@ const ReasonsSection = () => {
         />
       </div>
       <div className="container relative  mx-auto px-4 text-center text-white max-md:px-0">
-        <h2 className="text-[38px]  font-bold font-inter max-md:-mt-4">12 MOTIVOS PARA ESCOLHER <br /> 
-          <div className='flex flex-col justify-center items-center font-inter gap-2'>
-             <span className="text-blue-300"> <span className='text-white'>A</span> SPLITWAVE</span>
-            <img src={traco} alt="traco azul" className='w-[199px] ml-3' />
+        <h2 className="text-[38px]  font-bold font-inter max-md:-mt-4">
+          12 MOTIVOS PARA ESCOLHER <br />
+          <div className="flex flex-col justify-center items-center font-inter gap-2">
+            <span className="text-blue-300">
+              {" "}
+              <span className="text-white">A</span> SPLITWAVE
+            </span>
+            <img src={traco} alt="traco azul" className="w-[199px] ml-3" />
           </div>
         </h2>
-        <ButtomReasons/>
+        <ButtomReasons />
         <div className="  flex justify-center mt-[47px]">
-          <button className="max-w-[407px]   text-white py-6 px-[61px] rounded-[10px] font-inter text-2xl  font-bold  bg-buttom-color max-md:text-lg ">
-            Falar com especialista
-          </button>
+          <a href="#leads-b125aa7c11be23b21ed9">
+            <button className="max-w-[407px]   text-white py-6 px-[61px] rounded-[10px] font-inter text-2xl  font-bold  bg-buttom-color max-md:text-lg ">
+              Falar com especialista
+            </button>
+          </a>
         </div>
       </div>
     </section>

@@ -14,7 +14,7 @@
 }
 
 
-.bricks--column div {
+.bricks--column div:not(.phone-input-group) {
     background-color: transparent !important;
     width: 70vh !important;
 
@@ -25,15 +25,13 @@
     
 }
 
-/* .bricks--row.rd-row {
-    @media  (max-width: 768px) {
-        position: static;
-        display: block;
-        width: auto;
-        margin: 0;
-        padding: 0;
-    }
-} */
+.bricks--row.rd-row {
+    justify-content: center !important;
+}
+
+.phone-country {
+    max-width: 100px;
+}
 
 /* 
 .bricks--column.rd-column {
@@ -99,12 +97,13 @@
 
 }
 
-.bricks--component .bricks--component-text p{
-      width: 40vw !important;
+.bricks--component .bricks--component-text p {
+      width: fit-content !important;
       display: flex !important;
       justify-content: center !important;
       align-items: center !important;
       padding: 0px !important;
+      margin: 0 auto !important;
 
     @media  (max-width: 768px) {
         margin: 0px !important;
@@ -123,3 +122,10 @@
     font-family: 'inter' !important;
 }
 
+img.flag {
+    margin-top: 8px !important;
+}
+
+.country-field {
+    display: none;
+}

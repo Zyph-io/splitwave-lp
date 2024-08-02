@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <header className=" flex justify-center items-center   bg-blue-900 ">
-      <div className=" lg:w-[66%]  gap-8 flex justify-between  items-center pt-4 ">
+      <div className="max-w-[1200px] grow gap-8 flex justify-between  items-center pt-4 ">
         <Logo />
         <ButtomMenuMobile onClick={toggleMenu} />
         <Nav isOpen={isOpen} />
